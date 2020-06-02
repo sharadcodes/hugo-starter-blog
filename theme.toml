@@ -1,18 +1,12 @@
-name = "Hugo Blogging Starter"
+name = "Hugo Starter Blog"
 license = "MIT"
-licenselink = "https://github.com/sharadcodes/hugo-blogging-starter/blob/master/LICENSE"
-description = ""
-homepage = "https://github.com/sharadcodes/hugo-blogging-starter/"
-tags = []
-features = []
+licenselink = "https://github.com/sharadcodes/hugo-starter-blog/blob/master/LICENSE"
+description = "A minimal blogging theme for Hugo with dark mode :)"
+homepage = "https://github.com/sharadcodes/hugo-starter-blog/"
+tags = ["blog"]
+features = ["dark"]
 min_version = "0.41"
 
 [author]
   name = "Sharad Raj"
   homepage = "https://codingindian.codes"
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
