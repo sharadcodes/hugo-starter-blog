@@ -1,12 +1,13 @@
 ---
 title: Markdown Demo
-date: 2018-10-09
+date: 2020-06-01
 ---
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
+Click on the image below. All the images of a post are clickable.
 
-### Large image
+### Lightbox image
 
 ![Wild](https://picsum.photos/800/300)
 
