@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hugo Starter Blog | Markdown Demo</title>
+  <script src="/js/dmode.js"></script>
+  <link rel="stylesheet" href="/css/style.css" />
+  <style>
+    .posts svg,
+    article svg {
+      margin-bottom: -3px !important;
+    }
+    .darkmode svg {
+      fill: white;
+    }
+  </style>
+</head>
+<body>
+    <main>
+      <header class="p-page">
+  <a href="/">
+    <h1>
+      Hugo Starter Blog
+    </h1>
+  </a>
+  <div class="dmode">
+    <img src="/icons/sun.svg" alt="" />
+  </div>
+</header>
+<article>
+  <div class="meta">
+    <h1 class="title">
+      Markdown Demo
+    </h1>
+    <small>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="black"
+        width="15px"
+        height="15px"
+      >
+        <path d="M0 0h24v24H0V0z" fill="none" />
+        <path
+          d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V10h16v11zm0-13H4V5h16v3z"
+        />
+      </svg>
+      October 10, 2018&nbsp;&nbsp;|&nbsp;&nbsp;
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="black"
+        width="15px"
+        height="15px"
+      >
+        <path d="M0 0h24v24H0V0z" fill="none" />
+        <path
+          d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+        />
+      </svg>
+      2 min</small
+    >
+  </div>
+  <div class="content">
+    <p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+<h3 id="large-image">Large image</h3>
+<p><img src="https://picsum.photos/800/300" alt="Wild"></p>
+<p>Text can be <strong>bold</strong>, <em>italic</em>, <del>strikethrough</del> or <code>keyword</code></p>
+<p><a href="./another-page.html">Link to another page</a>.</p>
+<p>There should be whitespace between paragraphs.</p>
+<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
+<h1 id="header-1">Header 1</h1>
+<p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+<h2 id="header-2">Header 2</h2>
+<blockquote>
+<p>This is a blockquote following a header. When something is important enough, you do it even if the odds are not in your favor.</p>
+</blockquote>
+<h3 id="header-3">Header 3</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#75715e">// Javascript code with syntax highlighting.
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">fun</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">lang</span>(<span style="color:#a6e22e">l</span>) {
+  <span style="color:#a6e22e">dateformat</span>.<span style="color:#a6e22e">i18n</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;./lang/&#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">l</span>)
+  <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
+}
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#75715e"># Ruby code with syntax highlighting</span>
+<span style="color:#66d9ef">GitHubPages</span><span style="color:#f92672">::</span><span style="color:#66d9ef">Dependencies</span><span style="color:#f92672">.</span>gems<span style="color:#f92672">.</span>each <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>gem, version<span style="color:#f92672">|</span>
+  s<span style="color:#f92672">.</span>add_dependency(gem, <span style="color:#e6db74">&#34;= </span><span style="color:#e6db74">#{</span>version<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+<span style="color:#66d9ef">end</span>
+</code></pre></div><h4 id="header-4">Header 4</h4>
+<ul>
+<li>This is an unordered list following a header.</li>
+<li>This is an unordered list following a header.</li>
+<li>This is an unordered list following a header.</li>
+</ul>
+<h5 id="header-5">Header 5</h5>
+<ol>
+<li>This is an ordered list following a header.</li>
+<li>This is an ordered list following a header.</li>
+<li>This is an ordered list following a header.</li>
+</ol>
+<h6 id="header-6">Header 6</h6>
+<table>
+<thead>
+<tr>
+<th align="left">head1</th>
+<th align="left">head two</th>
+<th align="left">three</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ok</td>
+<td align="left">good swedish fish</td>
+<td align="left">nice</td>
+</tr>
+<tr>
+<td align="left">out of stock</td>
+<td align="left">good and plenty</td>
+<td align="left">nice</td>
+</tr>
+<tr>
+<td align="left">ok</td>
+<td align="left">good <code>oreos</code></td>
+<td align="left">hmm</td>
+</tr>
+<tr>
+<td align="left">ok</td>
+<td align="left">good <code>zoute</code> drop</td>
+<td align="left">yumm</td>
+</tr>
+</tbody>
+</table>
+<h3 id="theres-a-horizontal-rule-below-this">There&rsquo;s a horizontal rule below this.</h3>
+<hr>
+<h3 id="here-is-an-unordered-list">Here is an unordered list:</h3>
+<ul>
+<li>Item foo</li>
+<li>Item bar</li>
+<li>Item baz</li>
+<li>Item zip</li>
+</ul>
+<h3 id="and-an-ordered-list">And an ordered list:</h3>
+<ol>
+<li>Item one</li>
+<li>Item two</li>
+<li>Item three</li>
+<li>Item four</li>
+</ol>
+<h3 id="and-a-nested-list">And a nested list:</h3>
+<ul>
+<li>level 1 item
+<ul>
+<li>level 2 item</li>
+<li>level 2 item
+<ul>
+<li>level 3 item</li>
+<li>level 3 item</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>level 1 item
+<ul>
+<li>level 2 item</li>
+<li>level 2 item</li>
+<li>level 2 item</li>
+</ul>
+</li>
+<li>level 1 item
+<ul>
+<li>level 2 item</li>
+<li>level 2 item</li>
+</ul>
+</li>
+<li>level 1 item</li>
+</ul>
+<pre><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long.Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long.
+</code></pre><pre><code>The final element.
+</code></pre>
+  </div>
+</article>
+<footer>
+  <p>
+    <small>Inspired by Gatsby starter blog.</small>
+    <br />
+    Developed with love by <a href="https://github.com/sharadcodes">sharadcodes</a>
+    <br />
+    &copy; 2020
+  </p>
+</footer>
+<script src="/js/lbox.js"></script>
+<script>
+  dload()
+</script></main>
+  </body>
+</html>

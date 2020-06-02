@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019-11-11-markdown-test/</loc>
+    <lastmod>2018-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2018-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2014-08-12-the-businessman-and-fisherman/</loc>
+    <lastmod>2014-08-12T10:18:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1963-08-28-i-have-a-dream/</loc>
+    <lastmod>1963-08-28T10:18:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1948-12-12-the-purpose-of-education/</loc>
+    <lastmod>1948-12-12T10:18:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
+</urlset>
