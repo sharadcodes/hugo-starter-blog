@@ -1,0 +1,15 @@
+<header>
+  <a href="/">
+    <h1>{{.Site.Title}}</h1>
+  </a>
+  <div class="dmode">
+    <img src="/icons/sun.svg" alt="" />
+  </div>
+  <section>
+    <img src="{{.Site.Data.author.imageurl}}" alt="{{.Site.Data.author.name}}"/>
+    <p style="-moz-user-select: none; user-select: none;">
+      {{.Site.Data.author.bio | markdownify }}
+      <a href="https://github.com/{{.Site.Data.author.github}}">You should follow him on Github</a>
+    </p>
+  </section>
+</header>
