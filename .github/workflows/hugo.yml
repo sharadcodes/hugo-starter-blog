@@ -17,10 +17,9 @@ jobs:
           mv archetypes layouts static theme.toml exampleSite/themes/hugo-starter-blog
           cd exampleSite
           hugo
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+          
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: exampleSite/public
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: exampleSite/public
