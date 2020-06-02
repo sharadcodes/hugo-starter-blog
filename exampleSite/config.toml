@@ -1,5 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Sharad Raj"
-theme = "hugo-blogging-starter"
+theme = "hugo-starter-blog"
 summaryLength = 15
