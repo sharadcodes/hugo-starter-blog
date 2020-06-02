@@ -13,7 +13,7 @@ jobs:
         run: |
           sudo apt install hugo
           mkdir -p exampleSite/themes/hugo-starter-blog
-          mv archtypes layouts static theme.toml exampleSite/themes/hugo-starter-blog
+          mv archetypes layouts static theme.toml exampleSite/themes/hugo-starter-blog
           cd exampleSite/themes/hugo-starter-blog
           hugo
 
