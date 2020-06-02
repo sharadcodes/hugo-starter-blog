@@ -1,0 +1,5 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Sharad Raj"
+theme = "hugo-blogging-starter"
+summaryLength = 15
