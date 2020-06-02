@@ -1,5 +1,5 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Sharad Raj"
+title = "Hugo Starter Blog"
 theme = "hugo-starter-blog"
 summaryLength = 15
