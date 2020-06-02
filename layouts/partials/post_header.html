@@ -1,10 +1,10 @@
 <header class="p-page">
-  <a href="/">
+  <a href="{{ $.Site.Home.Permalink }}">
     <h1>
       {{.Site.Title}}
     </h1>
   </a>
   <div class="dmode">
-    <img src="/icons/sun.svg" alt="" />
+    <img src="{{ $.Site.Home.Permalink }}/icons/sun.svg" alt="" />
   </div>
 </header>
